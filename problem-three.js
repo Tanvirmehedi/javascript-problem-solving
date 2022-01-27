@@ -59,3 +59,18 @@ var myEveryDay = [
 for (var i = 0; i < myEveryDay.length; i++) {
   console.log(myEveryDay[i]);
 }
+
+// Display The Odd Number Between 1 to 20
+
+for (var i = 1; i <= 20; i += 2) {
+  console.log("The Number odd Is - " + i);
+}
+
+// Display The Even Number between 10 to 20
+
+var even = 10;
+
+while (even <= 20) {
+  console.log(even);
+  even += 2;
+}
