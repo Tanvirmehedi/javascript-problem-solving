@@ -33,8 +33,8 @@ console.log(
   fahrenheit + " fahrenheit is " + getCelsius(fahrenheit) + " Deg celsius"
 );
 
-// C° to F°: Celsius to Fahrenheit Conversion Formula
-// To convert temperatures in degrees Celsius to Fahrenheit, multiply by 1.8 (or 9/5) and add 32.
+/* C° to F°: Celsius to Fahrenheit Conversion Formula
+To convert temperatures in degrees Celsius to Fahrenheit, multiply by 1.8 (or 9/5) and add 32. */
 function getFahrenheit(celsius) {
   let fahrenheit = celsius * 1.8 + 32;
   return fahrenheit;
@@ -44,7 +44,7 @@ let celsius = prompt("Give the Celsius");
 
 console.log(celsius + " celsius is " + getFahrenheit(celsius) + " Deg celsius");
 
-// Someone will tell you how many marks out of 100. You can tell by a function whether he will get A + or any other grade.
+/* Someone will tell you how many marks out of 100. You can tell by a function whether he will get A + or any other grade. */
 function getGrate(marks) {
   switch (true) {
     case marks <= 50:
@@ -74,7 +74,7 @@ function getGrate(marks) {
 let marks = prompt("Give your Mark ");
 getGrate(marks);
 
-// Use this simple interest calculator to find A, the Final Investment Value, using the simple interest formula: A = P(1 + rt) where P is the Principal amount
+/* Use this simple interest calculator to find A, the Final Investment Value, using the simple interest formula: A = P(1 + rt) where P is the Principal amount */
 
 function interest(amount, annualRate, timePeriod) {
   let amountOf = (amount * annualRate * timePeriod) / 100;
